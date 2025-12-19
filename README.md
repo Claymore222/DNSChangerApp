@@ -1,6 +1,6 @@
 # 🛡️ GoodbyeDPI Manager (Türkiye Edition)
 
-**GoodbyeDPI Manager**, Türkiye'deki internet servis sağlayıcılarının uyguladığı Derin Paket İnceleme (DPI) kısıtlamalarını aşmak için kullanılan komut satırı araçlarını, siyah pencerelerle uğraşmadan tek tıkla kullanmanızı sağlayan modern bir Windows arayüzüdür.
+**GoodbyeDPI Manager**, Siyah pencerelerle uğraşmadan tek tıkla kullanmanızı sağlayan modern bir Windows arayüzüdür.
 
 ## 🚀 Özellikler
 
