@@ -159,6 +159,7 @@
             Controls.Add(btnKapa);
             Controls.Add(btnAc);
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             MaximumSize = new Size(500, 600);
             MinimumSize = new Size(500, 600);
             Name = "Form1";
