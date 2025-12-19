@@ -18,9 +18,6 @@ Kodlarla uğraşmak istemiyorsanız, hazır derlenmiş sürümü indirebilirsini
 
 1.  Bu sayfanın sağ tarafındaki **[Releases (Sürümler)](../../releases)** kısmına tıklayın.
 2.  En son sürümün altındaki **ZIP** dosyasını indirin.
-3.  Dosyayı bir klasöre çıkartın.
-4.  `GoodbyeDPI_Manager.exe` dosyasına sağ tıklayıp **Yönetici Olarak Çalıştır** deyin.
-5.  **"Aç"** butonuna basın ve özgür internetin tadını çıkarın! 🎉
 
 > **Not:** Uygulama Windows Servislerini (`sc create`) yönettiği için **Yönetici İzni** şarttır.
 
