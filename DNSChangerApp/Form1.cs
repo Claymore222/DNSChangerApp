@@ -1,4 +1,4 @@
-﻿using Microsoft.Win32; // Kayıt defteri (Registry) için gerekli
+﻿using Microsoft.Win32; 
 using System;
 using System.Diagnostics;
 using System.Drawing; 
@@ -14,7 +14,7 @@ namespace DNSChangerApp
         private bool gercekCikis = false;
         private string hedefKlasor = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "MyGoodbyeDPI");
         private string exeYolu;
-        private string uygulamaAdi = "GoodbyeDPI_Manager"; // Başlangıçta görünecek isim
+        private string uygulamaAdi = "GoodbyeDPI_Manager"; 
 
         public Form1()
         {
@@ -81,12 +81,12 @@ namespace DNSChangerApp
             if (processes.Length > 0)
             {
                 lblDurum.Text = "DURUM: AKTİF 🟢";
-                lblDurum.ForeColor = Color.SpringGreen; // Veya Color.Green
+                lblDurum.ForeColor = Color.SpringGreen; 
             }
             else
             {
                 lblDurum.Text = "DURUM: PASİF 🔴";
-                lblDurum.ForeColor = Color.Tomato; // Veya Color.Red
+                lblDurum.ForeColor = Color.Tomato; 
             }
         }
 
@@ -101,7 +101,7 @@ namespace DNSChangerApp
                     chkBaslangic.Checked = true;
                 }
             }
-            catch { /* Hata olursa boşver */ }
+            catch { }
         }
 
         private void chkBaslangic_CheckedChanged(object sender, EventArgs e)
